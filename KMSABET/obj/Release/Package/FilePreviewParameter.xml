@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="esabet" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Haris\ Khan\\documents\\visual\ studio\ 2013\\Projects\\KMSABET\\KMSABET\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Haris\ Khan\\documents\\visual\ studio\ 2013\\Projects\\KMSABET\\KMSABET\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-KMSABET-20150810010202.mdf;Initial Catalog=aspnet-KMSABET-20150810010202;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Haris\ Khan\\documents\\visual\ studio\ 2013\\Projects\\KMSABET\\KMSABET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="KMSABETDBConnectionString-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=KMSABETDB;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Haris\ Khan\\documents\\visual\ studio\ 2013\\Projects\\KMSABET\\KMSABET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KMSABETDBConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

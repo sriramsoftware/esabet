@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="Add Assessment" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QueFavoriteListAddEdit.aspx.cs" Inherits="KMSABET.KMSPages.QueFavoriteListAddEdit" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -244,6 +245,7 @@
                     </span>
                 </legend>
             </asp:Panel>
+            <%--<ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"/>--%>
             <asp:UpdatePanel ID="UpdatePanelMsgBox" runat="server" UpdateMode="Conditional">
                 <ContentTemplate>
                     <asp:Panel Width="790px" runat="server" Height="500px" ID="selectedQuestionPanel" 

@@ -6,3 +6,109 @@
 2017-08-24 02:09:25,132 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
 2017-08-24 02:09:25,134 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : huser
 2017-08-24 02:09:25,135 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : huser
+2017-11-21 20:52:40,366 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 20:52:40,772 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 20:52:40,774 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 20:52:40,775 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 20:52:40,777 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 20:52:40,778 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : iuser
+2017-11-21 20:52:40,780 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : iuser
+2017-11-21 21:01:40,748 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:40,748 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:40,750 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:40,751 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 21:01:40,752 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:40,753 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : iuser
+2017-11-21 21:01:40,754 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : pass
+2017-11-21 21:01:44,297 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:44,299 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:44,300 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:44,301 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 21:01:44,302 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:01:44,303 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : iuser
+2017-11-21 21:01:44,303 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : pass
+2017-11-21 21:02:31,801 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:02:31,803 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:02:31,804 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:02:31,806 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 21:02:31,807 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:02:31,809 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : mathuser
+2017-11-21 21:02:31,809 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : math
+2017-11-21 21:02:31,935 ERROR KMSABET.Global:30 ESABET Error Report - 11/21/2017 9:02:31 PM
+2017-11-21 21:02:31,937 ERROR KMSABET.Global:31 http://localhost:50086/KMSPages/QueFavoriteListAddEdit<br/><br/><a href='http://esabet.azurewebsites.net/log.txt'>View Log File: http://esabet.azurewebsites.net/log.txt </a>
+2017-11-21 21:02:52,976 INFO  KMSABET.MyUtilities.GeneralUtils:72 Email while sending error : 
+System.Net.Mail.SmtpException: Service not available, closing transmission channel. The server response was: Cannot connect to SMTP server 40.100.28.210 (40.100.28.210:25), connect error 10060
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at KMSABET.MyUtilities.GeneralUtils.sendEmail(AppEmailData emailDataObj) in c:\Users\haris\Documents\Visual Studio 2013\Projects\KMSABET\KMSABET\MyUtilities\GeneralUtils.cs:line 68
+2017-11-21 21:02:52,983 ERROR KMSABET.Global:37 Message : Object reference not set to an instance of an object.
+2017-11-21 21:02:52,985 ERROR KMSABET.Global:38 Source : KMSABET
+2017-11-21 21:02:52,986 ERROR KMSABET.Global:39 InnerException : 
+2017-11-21 21:02:52,987 ERROR KMSABET.Global:40 StackTrace :    at KMSABET.KMSPages.QueFavoriteListAddEdit.Page_Load(Object sender, EventArgs e) in c:\Users\haris\Documents\Visual Studio 2013\Projects\KMSABET\KMSABET\KMSPages\QueFavoriteListAddEdit.aspx.cs:line 29
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-11-21 21:02:52,988 ERROR KMSABET.Global:41 Full StackTrace : Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at KMSABET.KMSPages.QueFavoriteListAddEdit.Page_Load(Object sender, EventArgs e) in c:\Users\haris\Documents\Visual Studio 2013\Projects\KMSABET\KMSABET\KMSPages\QueFavoriteListAddEdit.aspx.cs:line 29
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-11-21 21:02:52,989 ERROR KMSABET.Global:42 Message : Object reference not set to an instance of an object.
+2017-11-21 21:04:36,397 ERROR KMSABET.Global:30 ESABET Error Report - 11/21/2017 9:04:36 PM
+2017-11-21 21:04:36,398 ERROR KMSABET.Global:31 http://localhost:50086/KMSPages/QueFavoriteListAddEdit<br/><br/><a href='http://esabet.azurewebsites.net/log.txt'>View Log File: http://esabet.azurewebsites.net/log.txt </a>
+2017-11-21 21:04:57,404 INFO  KMSABET.MyUtilities.GeneralUtils:72 Email while sending error : 
+System.Net.Mail.SmtpException: Service not available, closing transmission channel. The server response was: Cannot connect to SMTP server 40.100.29.194 (40.100.29.194:25), connect error 10060
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at KMSABET.MyUtilities.GeneralUtils.sendEmail(AppEmailData emailDataObj) in c:\Users\haris\Documents\Visual Studio 2013\Projects\KMSABET\KMSABET\MyUtilities\GeneralUtils.cs:line 68
+2017-11-21 21:04:57,405 ERROR KMSABET.Global:37 Message : Object reference not set to an instance of an object.
+2017-11-21 21:04:57,406 ERROR KMSABET.Global:38 Source : KMSABET
+2017-11-21 21:04:57,407 ERROR KMSABET.Global:39 InnerException : 
+2017-11-21 21:04:57,408 ERROR KMSABET.Global:40 StackTrace :    at KMSABET.KMSPages.QueFavoriteListAddEdit.Page_Load(Object sender, EventArgs e) in c:\Users\haris\Documents\Visual Studio 2013\Projects\KMSABET\KMSABET\KMSPages\QueFavoriteListAddEdit.aspx.cs:line 29
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-11-21 21:04:57,409 ERROR KMSABET.Global:41 Full StackTrace : Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at KMSABET.KMSPages.QueFavoriteListAddEdit.Page_Load(Object sender, EventArgs e) in c:\Users\haris\Documents\Visual Studio 2013\Projects\KMSABET\KMSABET\KMSPages\QueFavoriteListAddEdit.aspx.cs:line 29
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-11-21 21:04:57,410 ERROR KMSABET.Global:42 Message : Object reference not set to an instance of an object.
+2017-11-21 21:05:29,986 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:05:29,988 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:05:29,990 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:05:29,991 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 21:05:29,993 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:05:29,994 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : quser
+2017-11-21 21:05:29,995 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : pass
+2017-11-21 21:06:14,953 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:14,955 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:14,956 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:14,957 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 21:06:14,959 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:14,960 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : haris
+2017-11-21 21:06:14,961 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : khan
+2017-11-21 21:06:36,965 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:36,967 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:36,968 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:36,970 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 21:06:36,971 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:06:36,973 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : usama
+2017-11-21 21:06:36,974 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : alam
+2017-11-21 21:07:23,634 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:07:23,636 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:07:23,638 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:07:23,639 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 2
+2017-11-21 21:07:23,641 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : 1
+2017-11-21 21:07:23,642 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : usamaadmin
+2017-11-21 21:07:23,643 INFO  KMSABET.KMSPages.PageRedirection:223 nvc["uniId"] : alam
